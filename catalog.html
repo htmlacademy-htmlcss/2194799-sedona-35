@@ -10,8 +10,8 @@
     <header class="main-header">
       <nav class="navigation">
         <a class="navigation-logo" href="index.html">
-        <img src="images/logo-header.png" width="140" height="70" class="main-header-logo"
-          alt="Логотип сайта городка Седона.">
+          <img src="images/logo-header.png" width="140" height="70" class="main-header-logo"
+            alt="Логотип сайта городка Седона.">
         </a>
         <ul class="navigation-list">
           <li class="navigation-item">
@@ -21,7 +21,8 @@
             <a class="navigation-link" href="about.html">О Cедоне</a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link-current" href="hotel.html">Гостиницы</a><!--Текущая страница-->
+            <a class="navigation-link-current" href="hotel.html">Гостиницы</a>
+            <!--Текущая страница-->
           </li>
         </ul>
         <ul class="navigation-user">
@@ -57,12 +58,21 @@
         <li class="breadcrumbs-item">
           <a class="breadcrumbs-link" href="index.html">
             <span class="visually-hidden">Главная</span>
-          </a><!--Здесь пробуем обозначить текст для скринридера, в браузере должна быть только иконка "домой" (как на макете)-->
+          </a>
+          <!--Здесь пробуем обозначить текст для скринридера, в браузере должна быть только иконка "домой" (как на макете)-->
         </li>
         <li class="breadcrumbs-item">
           <a class="breadcrumbs-link">Гостиницы</a>
+          <!--Здесь нет атрибута href, тк это не ссылка - пользователь находится на этой странице. А почему бы сразу не назначить элемент span вместо а?-->
         </li>
       </ul>
+      <section class="hotel-features">
+        <h2 class="visually-hidden">Список параметров гостиниц</h2>
+        <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
+          <button class="button" type="submit">Применить</button>
+          <button class="button" type="submit">Сбросить</button>
+        </form>
+      </section>
 
     </main>
     <footer class="page-footer">
@@ -98,4 +108,5 @@
       </section>
     </footer>
   </body>
+
 </html>
