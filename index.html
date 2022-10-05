@@ -4,14 +4,16 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
 
   <body>
     <header class="main-header">
       <nav class="navigation">
+        <img src="images/logo-header.png" width="140" height="70" class="main-header-logo" alt="Логотип сайта городка Седона.">
         <ul class="navigation-list">
           <li class="navigation-item">
-            <a class="navigation-link" href="main.html">Главная</a>
+            <a class="navigation-link-current" href="main.html">Главная</a><!--Текущая страница-->
           </li>
           <li class="navigation-item">
             <a class="navigation-link" href="about.html">О Cедоне</a>
@@ -20,9 +22,6 @@
             <a class="navigation-link" href="hotel.html">Гостиницы</a>
           </li>
         </ul>
-        <a class="main-header-logo">
-          <img src="#" width="140" height="70" alt="Логотип сайта городка Седона">
-        </a>
         <ul class="navigation-user">
           <li class="navigation-item">
             <a class="navigation-link" href="#">
@@ -50,9 +49,9 @@
     </header>
     <main class="main-index">
       <h1 class="visually-hidden">Седона</h1>
-      <img class="background-index" src="#" width="1200" height="485" alt="Фоновое изображение">
-      <div class="preview">
-        <p><b>Седона — небольшой городок в Аризоне,
+      <img src="images/welcome.svg" width="458" height="352" alt="Добро пожаловать в Седону.">
+      <div class="hero-block">
+        <p><b>Седона — небольшой городок в Аризоне,<br>
             заслуживающий большего!</b></p>
         <p>Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
       </div>
@@ -61,6 +60,7 @@
         <ul class="advantages-list">
           <li class="advantages-item">
             <h3 class="advantages-title">Настоящий городок</h3>
+            <img src="images/advantages-1.jpg" width="800" height="384" alt="Фотография городское здание.">
             <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
           </li>
           <li class="advantages-item">
@@ -77,6 +77,7 @@
           </li>
           <li class="advantages-item">
             <h3 class="advantages-title">Там есть мост дьявола</h3>
+            <img src="images/advantages-2.jpg" width="800" height="384" alt="Фотография каньон.">
             <p>Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
           </li>
           <li class="advantages-item">
@@ -95,12 +96,12 @@
       </section>
       <section class="search-hotel">
         <h2 class="search-title">Заинтересовались?</h2>
-        <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+        <p>Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в Седоне</p>
         <a class="search-link">Поиск гостиницы в Седоне</a>
       </section>
       <section class="subscribe">
         <h3 class="subscribe-title">Подпишитесь на рассылку</h3>
-        <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
+        <p>Только полезная информация и никакого спама,<br>честное бойскаутское!</p>
         <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
           <input type="text" id="subscribe-email" name="subscribe-email" placeholder="Ваш e-mail">
           <button class="button" type="submit">Подписаться</button>
@@ -110,7 +111,7 @@
     <footer class="page-footer">
       <section class="footer-social">
         <h2 class="visually-hidden">Социальные сети</h2>
-        <ul class="foter-social-list">
+        <ul class="footer-social-list">
           <li class="footer-social-item">
             <a class="button" href="https://vk.com/htmlacademy">
               <span class="visually-hidden">Вконтакте</span>
@@ -134,8 +135,9 @@
       </section>
       <section class="footer-logo">
         <h2 class="visually-hidden">Логотип</h2>
-        <img class="footer-logo-img" scr="#" alt="Доготип Академии">
-        <a class="footer-logo-link" href="https://htmlacademy.ru/"></a>
+        <img src="images/logo-footer.svg" width="114.9" height="32.9" alt="Логотип Академия.">
+        <a class="footer-logo-link" href="https://htmlacademy.ru/">
+        </a>
       </section>
     </footer>
   </body>
