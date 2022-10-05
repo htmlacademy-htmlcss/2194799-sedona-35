@@ -63,24 +63,61 @@
         </li>
         <li class="breadcrumbs-item">
           <a class="breadcrumbs-link">Гостиницы</a>
-          <!--Здесь нет атрибута href, тк это не ссылка - пользователь находится на этой странице. А почему бы сразу не назначить элемент span вместо а?-->
+          <!--Здесь нет атрибута href, тк это не ссылка - пользователь находится на этой странице. А почему бы сразу не назначить элемент span вместо а? Потому что это ссылка заглушка - показывает, что мы находимся на текущей странице-->
         </li>
       </ul>
-      <section class="hotel-features">
+      <section class="residence-features">
         <h2 class="visually-hidden">Список параметров гостиниц</h2>
         <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
           <fieldset class="catalog-filter-group">
             <legend class="catalog-filter-title">Инфраструктура:</legend>
-            <label class="control-input">
-              <input type="checkbox" name=""><!---Здесь остановились-->
-            </label>
+            <!--Квадратная форма checkbox-->
+            <ul class="catalog-filter-list">
+              <!--убрать стилизованные отметки в списках: свойство list-style: none-->
+              <li class="catalog-filter-item">
+                <label class="control">
+                  <input class="control-input" type="checkbox" name="Бассейн" checked>
+                  <!--Кириллица-->
+                </label>
+              </li>
+              <li class="catalog-filter-item">
+                <label class="control">
+                  <input class="control-input" type="checkbox" name="Парковка" checked>
+                  <!--Кириллица-->
+                </label>
+              </li>
+              <li class="catalog-filter-item">
+                <label class="control">
+                  <input class="control-input" type="checkbox" name="Wi-Fi">
+                </label>
+              </li>
+            </ul>
           </fieldset>
-
           <fieldset class="catalog-filter-group">
             <legend class="catalog-filter-title">Тип жилья:</legend>
+            <!--Курглая форма radio-->
+            <ul class="catalog-filter-list">
+              <!--убрать стилизованные отметки в списках: свойство list-style: none-->
+              <li class="catalog-filter-item">
+                <label class="control">
+                  <input class="control-input" type="radio" name="residence-group" value="hotel" checked>
+                </label>
+              </li>
+              <li class="catalog-filter-item">
+                <label class="control">
+                  <input class="control-input" type="radio" name="residence-group" value="motel">
+                </label>
+              </li>
+              <li class="catalog-filter-item">
+                <label class="control">
+                  <input class="control-input" type="radio" name="residence-group" value="apartments">
+                </label>
+              </li>
+            </ul>
           </fieldset>
-          <button class="button" type="submit">Применить</button>
+          <button class="button" type="submit">Применить</button><!--Кнопки отличаются по стилям-->
           <button class="button" type="submit">Сбросить</button>
+          </ul>
         </form>
       </section>
 
