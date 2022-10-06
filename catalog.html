@@ -13,7 +13,8 @@
           <img src="images/logo-header.png" width="140" height="70" class="main-header-logo"
             alt="Логотип сайта городка Седона.">
         </a>
-        <ul class="navigation-list"><!--убрать стилизованные отметки в списках: свойство list-style: none-->
+        <ul class="navigation-list">
+          <!--убрать стилизованные отметки в списках: свойство list-style: none-->
           <li class="navigation-item">
             <a class="navigation-link" href="main.html">Главная</a>
           </li>
@@ -54,7 +55,8 @@
       <header class="inner-header">
         <h1 class="inner-header-title">Гостиницы Седоны</h1>
       </header>
-      <ul class="breadcrumbs"><!--убрать стилизованные отметки в списках: свойство list-style: none-->
+      <ul class="breadcrumbs">
+        <!--убрать стилизованные отметки в списках: свойство list-style: none-->
         <li class="breadcrumbs-item">
           <a class="breadcrumbs-link" href="index.html">
             <span class="visually-hidden">Главная</span>
@@ -76,16 +78,18 @@
               <!--убрать стилизованные отметки в списках: свойство list-style: none-->
               <li class="catalog-filter-item">
                 <label class="control">
-                  <input class="control-input" type="checkbox" name="Бассейн" checked><!--Кириллица-->
+                  <input class="control-input" type="checkbox" name="Бассейн" checked>
+                  <!--Кириллица-->
 
                   Бассейн
                 </label>
               </li>
               <li class="catalog-filter-item">
                 <label class="control">
-                  <input class="control-input" type="checkbox" name="Парковка" checked><!--Кириллица-->
+                  <input class="control-input" type="checkbox" name="Парковка" checked>
+                  <!--Кириллица-->
 
-                Парковка
+                  Парковка
                 </label>
               </li>
               <li class="catalog-filter-item">
@@ -125,7 +129,8 @@
               </li>
             </ul>
           </fieldset>
-          <button class="button button-blue" type="submit">Применить</button><!--Кнопки отличаются по стилям-->
+          <button class="button button-blue" type="submit">Применить</button>
+          <!--Кнопки отличаются по стилям-->
           <button class="button" type="submit">Сбросить</button>
           </ul>
         </form>
@@ -133,39 +138,44 @@
       <section class="catalog">
         <h2 class="visually-hidden">Каталог</h2>
         <p>Найдено гостиниц:<span>38</span></p>
-        <select class="select-control" aria-label="Сортировка"><!--Фильтр здесь-->
+        <select class="select-control" aria-label="Сортировка">
+          <!--Фильтр здесь-->
           <option value="popular">Сначала дешевые</option>
           <option value="cheap">Сначала популярные</option>
           <option value="expensive">Сначала дорогие</option>
         </select>
         <a class="button button-active" href="#">
-          <span class="visually-hidden">Показать таблицу</span><!--Ссылка отличается по стилю-->
+          <span class="visually-hidden">Показать таблицу</span>
+          <!--Ссылка отличается по стилю-->
         </a>
         <a class="button" href="#">
-          <span class="visually-hidden">Показать слайды</span><!--Пускай пока будут слайды, уточнить-->
+          <span class="visually-hidden">Показать слайды</span>
+          <!--Пускай пока будут слайды, уточнить-->
         </a>
         <a class="button" href="#">
           <span class="visually-hidden">Показать список</span>
         </a>
-        <ul class="residence-list"><!--убрать стилизованные отметки в списках: свойство list-style: none-->
+        <ul class="residence-list">
+          <!--убрать стилизованные отметки в списках: свойство list-style: none-->
           <li class="residence-card">
             <a class="residence-list-link" href="residence.html">
-            <img class="residence-card-image" scr="" alt="Каньон со звездами"><!--Добавить scr-->
+              <img class="residence-card-image" scr="" alt="Каньон со звездами">
+              <!--Добавить scr-->
             </a>
             <h3 class="residence-card-title">Amara Resort & Spa</h3>
-              <span class="residence-card-desc">Гостиница</span><!--Описание элемента списка-->
-              <span class="residence-card-price">От 4000 ₽</span><br>
+            <span class="residence-card-desc">Гостиница</span>
+            <!--Описание элемента списка-->
+            <span class="residence-card-price">От 4000 ₽</span><br>
             <a class="residence-card-link button" href="#">Подробнее</a>
             <a class="residence-card-link button button-blue" href="#">В избранное</a>
+            <span class="visually-hidden">4 звезды</span>
+            <span class="rating-result">Рейтинг: 8,5</span>
           </li>
+
+
+
         </ul>
-        <div class="rating-result">
-          <span class="visually-hidden">4 звезды</span>
-          <span class="rating">Рейтинг: 8,5</span>
-        </div>
       </section>
-
-
     </main>
     <footer class="page-footer">
       <section class="footer-social">
