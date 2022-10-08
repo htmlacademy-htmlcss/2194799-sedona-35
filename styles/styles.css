@@ -73,6 +73,10 @@ body {
   color: #FFFFFF;
   text-decoration: none;
   text-transform: uppercase;
-  background: #756157;
+  background: #756157;/*свойства стилей под кнопку*/
   border-radius: 4px;
+}
+
+.main-index{
+  background-image: url(..images/index-background.jpg);
 }
