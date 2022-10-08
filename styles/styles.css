@@ -41,6 +41,7 @@ body {
 .main-header {
   background: #FFFFFF;
   color: #000000;
+  list-style: none;
 }
 
 .navigation-link {
