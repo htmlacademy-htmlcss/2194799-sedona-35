@@ -46,13 +46,20 @@ body {
 .navigation-link {
   font-family: "PT Sans", sans-serif;
   font-size: 20px;
+  font-weight: 700;
+  align-items: center;
   line-height: 24px;
-  color: inherit;
+  color: inherit;/*пока оставим наследуй*/
+  text-decoration: none;
+  text-transform: capitalize;
 }
 
 .navigation-link-current {
   font-family: "PT Sans", sans-serif;
   font-size: 20px;
+  font-weight: 700;
+  align-items: center;
   line-height: 24px;
-  color: inherit;
+  color: inherit;/*пока оставим наследуй*/
+  text-transform: capitalize;
 }
