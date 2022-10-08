@@ -43,7 +43,13 @@ body {
   color: #000000;
 }
 
-.navigation-link,
+.navigation-link {
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  color: inherit;
+}
+
 .navigation-link-current {
   font-family: "PT Sans", sans-serif;
   font-size: 20px;
