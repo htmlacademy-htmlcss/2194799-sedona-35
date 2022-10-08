@@ -63,3 +63,16 @@ body {
   color: inherit;/*пока оставим наследуй*/
   text-transform: capitalize;
 }
+
+.navigation-link-more {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  align-items: center;
+  line-height: 20px;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: #756157;
+  border-radius: 4px;
+}
