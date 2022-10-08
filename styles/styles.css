@@ -42,3 +42,10 @@ body {
   background: #FFFFFF;
   color: #000000;
 }
+
+.navigation-link {
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  color: inherit;
+}
