@@ -45,7 +45,7 @@ body {
 
 .navigation {
   display: flex;
-  padding: 0px 70px;
+  padding: px 70px;
   align-items: flex-start;/*пока оставим это здесь - потом по флексам посмотрим*/
 }
 
