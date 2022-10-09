@@ -94,7 +94,7 @@ body {
 .main-index {
   color: #000000;
   background:#FFFFFF;
-  background-image: url(../images/index-background.jpg);
+  background-image: url("../images/index-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
@@ -139,10 +139,7 @@ line-height: 21px;
 color: #333333;
 }
 
-.advantages {
-  background: #82B3D3;
-}
-
 .blue {
+  background: url("../images/background-1.jpg");
   color: #FFFFFF;
 }
