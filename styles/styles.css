@@ -46,7 +46,7 @@ body {
 .navigation {
   display: flex;
   padding: 0px 70px;
-  align-items: flex-start;
+  align-items: flex-start;/*пока оставим это здесь - потом по флексам посмотрим*/
 }
 
 
@@ -79,11 +79,16 @@ body {
   font-weight: 700;
   align-items: center;
   line-height: 20px;
+  padding: 8px 50px;
   color: #FFFFFF;
   text-decoration: none;
   text-transform: uppercase;
   background: #756157;/*свойства стилей под кнопку*/
   border-radius: 4px;
+}
+
+.navigation-list {
+  list-style: none;
 }
 
 .main-index {
