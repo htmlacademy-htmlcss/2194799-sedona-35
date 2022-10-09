@@ -29,8 +29,10 @@ body {
 
 .navigation {
   display: flex;
-  padding: px 70px;/*ругается на 0 в значении px*/
-  align-items: flex-start;/*пока оставим это здесь - потом по флексам посмотрим*/
+  padding: px 70px;
+  /*ругается на 0 в значении px*/
+  align-items: flex-start;
+  /*пока оставим это здесь - потом по флексам посмотрим*/
 }
 
 .navigation-link {
@@ -39,7 +41,8 @@ body {
   font-weight: 700;
   align-items: center;
   line-height: 24px;
-  color: inherit;/*пока оставим наследуй*/
+  color: inherit;
+  /*пока оставим наследуй*/
   background: inherit;
   text-decoration: none;
   text-transform: capitalize;
@@ -51,7 +54,8 @@ body {
   font-weight: 700;
   align-items: center;
   line-height: 24px;
-  color: inherit;/*пока оставим наследуй*/
+  color: inherit;
+  /*пока оставим наследуй*/
   background: inherit;
   text-transform: capitalize;
 }
@@ -66,7 +70,8 @@ body {
   color: #FFFFFF;
   text-decoration: none;
   text-transform: uppercase;
-  background: #756157;/*свойства стилей под кнопку*/
+  background: #756157;
+  /*свойства стилей под кнопку*/
   border-radius: 4px;
 }
 
@@ -78,7 +83,7 @@ body {
 
 .main-index {
   color: #000000;
-  background:#FFFFFF;
+  background: #FFFFFF;
   background-image: url("../images/index-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -92,7 +97,7 @@ body {
   line-height: 26px;
   text-align: center;
   color: #333333;
-  background:#FFFFFF;
+  background: #FFFFFF;
 }
 
 .hero-title,
@@ -104,7 +109,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   color: #000000;
-  background:#FFFFFF;
+  background: #FFFFFF;
 }
 
 .advantages-list {
@@ -112,19 +117,19 @@ body {
 }
 
 .advantages-title {
-font-weight: 700;
-font-size: 24px;
-line-height: 28px;
-text-transform: uppercase;
-color: #000000;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #000000;
 }
 
 .advantages-item {
-font-weight: 400;
-font-size: 18px;
-line-height: 21px;
-color: #333333;
-background:#FFFFFF;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+  background: #FFFFFF;
 }
 
 .blue {
@@ -150,7 +155,8 @@ background:#FFFFFF;
   color: #FFFFFF;
   text-decoration: none;
   text-transform: uppercase;
-  background: #756157;/*свойства стилей под кнопку*/
+  background: #756157;
+  /*свойства стилей под кнопку*/
   border-radius: 4px;
 }
 
@@ -158,15 +164,21 @@ background:#FFFFFF;
   text-align: center;
   padding: 96px 258px 104px;
   color: #FFFFFF;
-  background:#FFFFFF;
+  background: #FFFFFF;
   background-image: url("../images/subscribe-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
 
 .subscribe-title {
-font-size: 30px;
-font-weight: 700;
-line-height: 36px;
-text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.subscript {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
 }
