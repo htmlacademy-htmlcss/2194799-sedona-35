@@ -129,13 +129,13 @@ font-weight: 700;
 font-size: 24px;
 line-height: 28px;
 text-transform: uppercase;
-color: #FFFFFF;
+color: #000000;
+}
+
+.advantages-item {
+  color: #333333;
 }
 
 .advantages {
   background: #82B3D3;
-}
-
-h4 {
-  color: #FFFFFF;
 }
