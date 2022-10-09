@@ -45,10 +45,9 @@ body {
 
 .navigation {
   display: flex;
-  padding: px 70px;
+  padding: px 70px;/*ругается на 0 в значении px*/
   align-items: flex-start;/*пока оставим это здесь - потом по флексам посмотрим*/
 }
-
 
 .navigation-link {
   font-family: "PT Sans", sans-serif;
@@ -119,4 +118,8 @@ body {
   text-transform: uppercase;
   color: #000000;
   background:#FFFFFF;
+}
+
+.advantages-list {
+  text-align: center;
 }
