@@ -83,7 +83,8 @@ body {
   background-repeat: no-repeat;
 }
 
-.hero-block {
+.hero-block,
+search-hotel {
   font-family: "PT Sans", sans-serif;
   font-size: 22px;
   font-weight: 400;
@@ -93,7 +94,8 @@ body {
   background:#FFFFFF;
 }
 
-.hero-block p b{
+.hero-block p b,
+search-title {
   font-family: "PT Sans", sans-serif;
   font-size: 30px;
   font-weight: 700;
