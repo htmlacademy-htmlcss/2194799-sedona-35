@@ -146,3 +146,7 @@ color: #333333;
 .blue {
   color: #FFFFFF;
 }
+
+.light-blue {
+  background: rgba(131, 179, 211, 0.12);
+}
