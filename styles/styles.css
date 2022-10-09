@@ -194,3 +194,13 @@ body {
   color: #000000;
   opacity: 0.6;
 }
+
+.button {
+font-weight: 700;
+font-size: 20px;
+line-height: 36px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+background: #82B3D3;/*свойства стилей под кнопку*/
+}
