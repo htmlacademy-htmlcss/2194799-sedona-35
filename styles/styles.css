@@ -204,3 +204,14 @@ text-transform: uppercase;
 color: #FFFFFF;
 background: #82B3D3;/*свойства стилей под кнопку*/
 }
+
+.footer-contacts-phone {
+font-weight: 400;
+font-size: 40px;
+line-height: 40px;
+text-align: center;
+text-transform: uppercase;
+text-decoration: none;
+color: #000000;
+background: #FFFFFF;
+}
