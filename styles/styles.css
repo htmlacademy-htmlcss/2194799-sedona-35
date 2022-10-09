@@ -71,7 +71,8 @@ body {
 }
 
 .navigation-list,
-.navigation-user {
+.navigation-user,
+.advantages-list {
   list-style: none;
 }
 
