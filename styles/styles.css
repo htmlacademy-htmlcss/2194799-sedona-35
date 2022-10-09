@@ -187,6 +187,10 @@ body {
   background: #F2F2F2;
 }
 
+.page-footer {
+  background: #FFFFFF;
+}
+
 :-ms-input-placeholder {
   font-weight: 400;
   font-size: 18px;
@@ -196,22 +200,22 @@ body {
 }
 
 .button {
-font-weight: 700;
-font-size: 20px;
-line-height: 36px;
-text-align: center;
-text-transform: uppercase;
-color: #FFFFFF;
-background: #82B3D3;/*свойства стилей под кнопку*/
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #82B3D3;
+  /*свойства стилей под кнопку*/
 }
 
 .footer-contacts-phone {
-font-weight: 400;
-font-size: 40px;
-line-height: 40px;
-text-align: center;
-text-transform: uppercase;
-text-decoration: none;
-color: #000000;
-background: #FFFFFF;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
 }
