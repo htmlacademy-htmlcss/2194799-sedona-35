@@ -87,7 +87,8 @@ body {
   border-radius: 4px;
 }
 
-.navigation-list {
+.navigation-list,
+.navigation-user {
   list-style: none;
 }
 
