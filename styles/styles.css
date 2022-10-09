@@ -99,3 +99,24 @@ body {
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
+
+.hero-block {
+  font-family: "PT Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  color: #333333;
+  background:#FFFFFF;
+}
+
+.hero-block p b{
+  font-family: "PT Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  background:#FFFFFF;
+}
