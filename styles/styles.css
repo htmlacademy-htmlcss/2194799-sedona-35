@@ -23,7 +23,7 @@ body {
 }
 
 .main-header {
-  background: #FFFFFF;
+  background-color: #FFFFFF;
   color: #000000;
 }
 
@@ -43,7 +43,7 @@ body {
   line-height: 24px;
   color: inherit;
   /*пока оставим наследуй*/
-  background: inherit;
+  background-color: inherit;
   text-decoration: none;
   text-transform: capitalize;
 }
@@ -56,7 +56,7 @@ body {
   line-height: 24px;
   color: inherit;
   /*пока оставим наследуй*/
-  background: inherit;
+  background-color: inherit;
   text-transform: capitalize;
 }
 
@@ -70,7 +70,7 @@ body {
   color: #FFFFFF;
   text-decoration: none;
   text-transform: uppercase;
-  background: #756157;
+  background-color: #756157;
   /*свойства стилей под кнопку*/
   border-radius: 4px;
 }
@@ -83,7 +83,7 @@ body {
 
 .main-index {
   color: #000000;
-  background: #FFFFFF;
+  background-color: #FFFFFF;
   background-image: url("../images/index-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -97,7 +97,7 @@ body {
   line-height: 26px;
   text-align: center;
   color: #333333;
-  background: #FFFFFF;
+  background-color: #FFFFFF;
 }
 
 .hero-title,
@@ -109,7 +109,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   color: #000000;
-  background: #FFFFFF;
+  background-color: #FFFFFF;
 }
 
 .advantages-list {
@@ -129,20 +129,20 @@ body {
   font-size: 18px;
   line-height: 21px;
   color: #333333;
-  background: #FFFFFF;
+  background-color: #FFFFFF;
 }
 
 .blue {
-  background: #82B3D3;
+  background-color: #82B3D3;
   color: #FFFFFF;
 }
 
 .light-blue {
-  background: rgba(131, 179, 211, 0.12);
+  background-color: rgba(131, 179, 211, 0.12);
 }
 
 .light-blue-blue {
-  background: rgba(131, 179, 211, 0.2);
+  background-color: rgba(131, 179, 211, 0.2);
 }
 
 .search-link {
@@ -155,7 +155,7 @@ body {
   color: #FFFFFF;
   text-decoration: none;
   text-transform: uppercase;
-  background: #756157;
+  background-color: #756157;
   /*свойства стилей под кнопку*/
   border-radius: 4px;
 }
@@ -164,7 +164,7 @@ body {
   text-align: center;
   padding: 96px 258px 104px;
   color: #FFFFFF;
-  background: #FFFFFF;
+  background-color: #FFFFFF;
   background-image: url("../images/subscribe-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -184,11 +184,11 @@ body {
 }
 
 .subscribe-form {
-  background: #F2F2F2;
+  background-color: #F2F2F2;
 }
 
 .page-footer {
-  background: #FFFFFF;
+  background-color: #FFFFFF;
 }
 
 :-ms-input-placeholder {
@@ -206,7 +206,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   color: #FFFFFF;
-  background: #82B3D3;
+  background-color: #82B3D3;
   /*свойства стилей под кнопку*/
 }
 
