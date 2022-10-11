@@ -80,7 +80,8 @@ body {
 .advantages-list,
 .breadcrumbs,
 .catalog-filter-list,
-.residence-list {
+.residence-list,
+.pagination {
   list-style: none;
 }
 
@@ -194,6 +195,7 @@ body {
 .page-footer {
   background-color: #FFFFFF;
 }
+
 /*временный плейсхолдер*/
 :-ms-input-placeholder {
   font-weight: 400;
@@ -269,9 +271,9 @@ body {
 }
 
 .button.button-blue {
-font-size: 16px;
-line-height: 20px;
-border-radius: 4px;
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 4px;
 }
 
 .residence-card {
@@ -304,7 +306,7 @@ border-radius: 4px;
   line-height: 20px;
   text-align: center;
   text-transform: uppercase;
-  background: #756157;
+  background-color: #756157;
   border-radius: 4px;
   text-decoration: none;
 }
@@ -315,7 +317,7 @@ border-radius: 4px;
   line-height: 20px;
   text-align: center;
   text-transform: uppercase;
-  background: #7DB54F;
+  background-color: #7DB54F;
   border-radius: 4px;
   text-decoration: none;
 }
@@ -326,9 +328,33 @@ border-radius: 4px;
   line-height: 20px;
   text-align: center;
   text-transform: uppercase;
-  background: #82B3D3;
+  background-color: #82B3D3;
   border-radius: 4px;
   text-decoration: none;
+}
+
+.pagination-link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: #82B3D3;
+  border-radius: 4px;
+}
+
+.pagination-current {
+  color: #000000;
+  background-color: #F2F2F2;
+}
+
+.pagination-show-more {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+  background-color: #FFFFFF;
 }
 
 .subscribe-inner {
