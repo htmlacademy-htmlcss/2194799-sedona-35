@@ -219,3 +219,11 @@ body {
   text-decoration: none;
   color: #000000;
 }
+
+/*catalog*/
+.inner-header-title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+  color: #FFFFFF;
+}
