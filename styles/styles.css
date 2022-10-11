@@ -103,7 +103,8 @@ body {
 }
 
 .hero-title,
-.search-title {
+.search-title,
+.find-title {
   font-family: "PT Sans", sans-serif;
   font-size: 30px;
   font-weight: 700;
