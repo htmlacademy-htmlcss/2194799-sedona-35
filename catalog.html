@@ -53,88 +53,90 @@
       </nav>
     </header>
     <main class="main-inner">
-      <header class="inner-header">
-        <h1 class="inner-header-title">Гостиницы Седоны</h1>
-      </header>
-      <ul class="breadcrumbs">
-        <li class="breadcrumbs-item">
-          <a class="breadcrumbs-link" href="index.html">
-            <span class="visually-hidden">Главная</span>
-          </a>
-          <!--текст для скринридера-->
-        </li>
-        <li class="breadcrumbs-item">
-          <a class="breadcrumbs-link">Гостиницы</a>
-          <!--Здесь нет атрибута href, тк это ссылка заглушка - показывает, что мы находимся на текущей странице-->
-        </li>
-      </ul>
-      <section class="residence-features">
-        <h2 class="visually-hidden">Список параметров гостиниц</h2>
-        <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
-          <fieldset class="catalog-filter-group">
-            <legend class="catalog-filter-title">Инфраструктура:</legend>
-            <!--Квадратная форма checkbox-->
-            <ul class="catalog-filter-list">
-              <!--убрать стилизованные отметки в списках: свойство list-style: none-->
-              <li class="catalog-filter-item">
-                <label class="control">
-                  <input class="control-input" type="checkbox" name="Бассейн" checked>
-                  <!--Кириллица-->
+      <div class="filter-container">
+        <header class="inner-header">
+          <h1 class="inner-header-title">Гостиницы Седоны</h1>
+        </header>
+        <ul class="breadcrumbs">
+          <li class="breadcrumbs-item">
+            <a class="breadcrumbs-link" href="index.html">
+              <span class="visually-hidden">Главная</span>
+            </a>
+            <!--текст для скринридера-->
+          </li>
+          <li class="breadcrumbs-item">
+            <a class="breadcrumbs-link">Гостиницы</a>
+            <!--Здесь нет атрибута href, тк это ссылка заглушка - показывает, что мы находимся на текущей странице-->
+          </li>
+        </ul>
+        <section class="residence-features">
+          <h2 class="visually-hidden">Список параметров гостиниц</h2>
+          <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
+            <fieldset class="catalog-filter-group">
+              <legend class="catalog-filter-title">Инфраструктура:</legend>
+              <!--Квадратная форма checkbox-->
+              <ul class="catalog-filter-list">
+                <!--убрать стилизованные отметки в списках: свойство list-style: none-->
+                <li class="catalog-filter-item">
+                  <label class="control">
+                    <input class="control-input" type="checkbox" name="Бассейн" checked>
+                    <!--Кириллица-->
 
-                  Бассейн
-                </label>
-              </li>
-              <li class="catalog-filter-item">
-                <label class="control">
-                  <input class="control-input" type="checkbox" name="Парковка" checked>
-                  <!--Кириллица-->
+                    Бассейн
+                  </label>
+                </li>
+                <li class="catalog-filter-item">
+                  <label class="control">
+                    <input class="control-input" type="checkbox" name="Парковка" checked>
+                    <!--Кириллица-->
 
-                  Парковка
-                </label>
-              </li>
-              <li class="catalog-filter-item">
-                <label class="control">
-                  <input class="control-input" type="checkbox" name="Wi-Fi">
+                    Парковка
+                  </label>
+                </li>
+                <li class="catalog-filter-item">
+                  <label class="control">
+                    <input class="control-input" type="checkbox" name="Wi-Fi">
 
-                  Wi-Fi
-                </label>
-              </li>
+                    Wi-Fi
+                  </label>
+                </li>
+              </ul>
+            </fieldset>
+            <fieldset class="catalog-filter-group">
+              <legend class="catalog-filter-title">Тип жилья:</legend>
+              <!--Курглая форма radio-->
+              <ul class="catalog-filter-list">
+                <!--убрать стилизованные отметки в списках: свойство list-style: none-->
+                <li class="catalog-filter-item">
+                  <label class="control">
+                    <input class="control-input" type="radio" name="residence-group" value="hotel" checked>
+
+                    Гостиница
+                  </label>
+                </li>
+                <li class="catalog-filter-item">
+                  <label class="control">
+                    <input class="control-input" type="radio" name="residence-group" value="motel">
+
+                    Мотель
+                  </label>
+                </li>
+                <li class="catalog-filter-item">
+                  <label class="control">
+                    <input class="control-input" type="radio" name="residence-group" value="apartments">
+
+                    Апартаменты
+                  </label>
+                </li>
+              </ul>
+            </fieldset>
+            <button class="button button-blue" type="submit">Применить</button>
+            <!--Кнопки отличаются по стилям-->
+            <button class="button" type="reset">Сбросить</button>
             </ul>
-          </fieldset>
-          <fieldset class="catalog-filter-group">
-            <legend class="catalog-filter-title">Тип жилья:</legend>
-            <!--Курглая форма radio-->
-            <ul class="catalog-filter-list">
-              <!--убрать стилизованные отметки в списках: свойство list-style: none-->
-              <li class="catalog-filter-item">
-                <label class="control">
-                  <input class="control-input" type="radio" name="residence-group" value="hotel" checked>
-
-                  Гостиница
-                </label>
-              </li>
-              <li class="catalog-filter-item">
-                <label class="control">
-                  <input class="control-input" type="radio" name="residence-group" value="motel">
-
-                  Мотель
-                </label>
-              </li>
-              <li class="catalog-filter-item">
-                <label class="control">
-                  <input class="control-input" type="radio" name="residence-group" value="apartments">
-
-                  Апартаменты
-                </label>
-              </li>
-            </ul>
-          </fieldset>
-          <button class="button button-blue" type="submit">Применить</button>
-          <!--Кнопки отличаются по стилям-->
-          <button class="button" type="reset">Сбросить</button>
-          </ul>
-        </form>
-      </section>
+          </form>
+        </section>
+      </div>
       <section class="catalog">
         <h2 class="visually-hidden">Каталог</h2>
         <p>Найдено гостиниц:<span>38</span></p>
@@ -261,12 +263,12 @@
       <section class="footer-contacts">
         <h2 class="visually-hidden">Контакты</h2>
         <a class="footer-contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
-      <section class="footer-logo">
-        <h2 class="visually-hidden">Логотип</h2>
-        <img src="images/logo-footer.svg" width="114.9" height="32.9" alt="Логотип Академия.">
-        <a class="footer-logo-link" href="https://htmlacademy.ru/">
-        </a>
-      </section>
+        <section class="footer-logo">
+          <h2 class="visually-hidden">Логотип</h2>
+          <img src="images/logo-footer.svg" width="114.9" height="32.9" alt="Логотип Академия.">
+          <a class="footer-logo-link" href="https://htmlacademy.ru/">
+          </a>
+        </section>
     </footer>
   </body>
 
