@@ -268,7 +268,11 @@ body {
   color: #FFFFFF;
 }
 
-
+.button.button-blue {
+font-size: 16px;
+line-height: 20px;
+border-radius: 4px;
+}
 
 .residence-card {
   font-weight: 400;
