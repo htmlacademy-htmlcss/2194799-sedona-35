@@ -291,3 +291,12 @@ body {
   text-transform: uppercase;
   color: #333333;
 }
+
+.residence-card-link {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  background: #756157;
+}
