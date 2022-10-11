@@ -78,7 +78,8 @@ body {
 .navigation-list,
 .navigation-user,
 .advantages-list,
-.breadcrumbs {
+.breadcrumbs,
+.catalog-filter-list {
   list-style: none;
 }
 
@@ -248,4 +249,12 @@ body {
   background-image: url("../images/catalog/catalog-background.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
+}
+
+.catalog-filter-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #FFFFFF;
 }
