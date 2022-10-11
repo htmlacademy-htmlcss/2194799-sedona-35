@@ -300,3 +300,12 @@ body {
   text-transform: uppercase;
   background: #756157;
 }
+
+.button-green {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  background: #7DB54F;
+}
