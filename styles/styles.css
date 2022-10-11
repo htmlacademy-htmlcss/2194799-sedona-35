@@ -242,3 +242,9 @@ body {
   line-height: inherit;
   color: #FFFFFF;
 }
+
+.residence-features{
+  background-image: url("../images/catalog/catalog-background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
