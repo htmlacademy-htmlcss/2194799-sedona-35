@@ -77,7 +77,8 @@ body {
 
 .navigation-list,
 .navigation-user,
-.advantages-list {
+.advantages-list,
+.breadcrumbs {
   list-style: none;
 }
 
@@ -225,5 +226,19 @@ body {
   font-weight: 700;
   font-size: 60px;
   line-height: 78px;
+  color: #FFFFFF;
+}
+
+.breadcrumbs {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.breadcrumbs-link{
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: inherit;
   color: #FFFFFF;
 }
