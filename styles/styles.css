@@ -79,7 +79,8 @@ body {
 .navigation-user,
 .advantages-list,
 .breadcrumbs,
-.catalog-filter-list {
+.catalog-filter-list,
+.residence-list {
   list-style: none;
 }
 
