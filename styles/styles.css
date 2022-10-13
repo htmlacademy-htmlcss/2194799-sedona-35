@@ -90,10 +90,10 @@ body {
   background-color: #FFFFFF;
   background-image: url("../images/index-background.jpg");
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  width: 1200px;
-  height: 485px;
+  /*background-position: center;*/
+  background-size: 100% auto;
+  /*width: 1200px;
+  height: 485px;*/
 }
 
 .hero-block,
@@ -170,15 +170,14 @@ body {
 
 .subscribe {
   text-align: center;
-  padding: 96px 258px 104px;
   color: #FFFFFF;
   background-color: #FFFFFF;
   background-image: url("../images/subscribe-background.jpg");
   background-repeat: no-repeat;
-  background-position: contain;
   background-size: 100% auto;
-  width: 1200px;
-  height: 415px;
+  padding: 96px 258px 104px;
+  /*width: 1200px;
+  height: 415px;*/
 }
 
 .subscribe-title {
