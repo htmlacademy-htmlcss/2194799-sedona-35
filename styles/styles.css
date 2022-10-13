@@ -89,8 +89,11 @@ body {
   color: #000000;
   background-color: #FFFFFF;
   background-image: url("../images/index-background.jpg");
-  background-size: 100% auto;
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 1200px;
+  height: 485px;
 }
 
 .hero-block,
@@ -171,8 +174,11 @@ body {
   color: #FFFFFF;
   background-color: #FFFFFF;
   background-image: url("../images/subscribe-background.jpg");
-  background-size: 100% auto;
   background-repeat: no-repeat;
+  background-position: contain;
+  background-size: 100% auto;
+  width: 1200px;
+  height: 415px;
 }
 
 .subscribe-title {
@@ -253,6 +259,9 @@ body {
   background-image: url("../images/catalog/catalog-background.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
+  background-position: center;
+  /*width: 1200px;
+  height: 412px;*/
 }
 
 .catalog-filter-title {
