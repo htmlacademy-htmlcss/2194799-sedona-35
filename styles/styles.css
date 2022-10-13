@@ -1,3 +1,379 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
 body {
-  background-color: brown;
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+.main-header {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.navigation {
+  display: flex;
+  padding: px 70px;
+  /*ругается на 0 в значении px*/
+  align-items: flex-start;
+  /*пока оставим это здесь - потом по флексам посмотрим*/
+}
+
+.navigation-link {
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  align-items: center;
+  line-height: 24px;
+  color: inherit;
+  /*пока оставим наследуй*/
+  background-color: inherit;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.navigation-link-current {
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  align-items: center;
+  line-height: 24px;
+  color: inherit;
+  /*пока оставим наследуй*/
+  background-color: inherit;
+  text-transform: capitalize;
+}
+
+.navigation-link-more {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  align-items: center;
+  line-height: 20px;
+  padding: 8px 50px;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #756157;
+  /*свойства стилей под кнопку*/
+  border-radius: 4px;
+}
+
+.navigation-list,
+.navigation-user,
+.advantages-list,
+.breadcrumbs,
+.catalog-filter-list,
+.residence-list,
+.pagination {
+  list-style: none;
+}
+
+.main-index {
+  color: #000000;
+  background-color: #FFFFFF;
+  background-image: url("../images/index-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.hero-block,
+.search-hotel {
+  font-family: "PT Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  color: #333333;
+  background-color: #FFFFFF;
+}
+
+.hero-title,
+.search-title,
+.find-title {
+  font-family: "PT Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+.advantages-list {
+  text-align: center;
+}
+
+.advantages-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.advantages-item {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+  background-color: #FFFFFF;
+}
+
+.blue {
+  background-color: #82B3D3;
+  color: #FFFFFF;
+}
+
+.light-blue {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.light-blue-blue {
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
+.search-link {
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  align-items: center;
+  line-height: 36px;
+  padding: 8px 50px;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #756157;
+  /*свойства стилей под кнопку*/
+  border-radius: 4px;
+}
+
+.subscribe {
+  text-align: center;
+  padding: 96px 258px 104px;
+  color: #FFFFFF;
+  background-color: #FFFFFF;
+  background-image: url("../images/subscribe-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.subscribe-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.subscript {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.subscribe-form {
+  background-color: #F2F2F2;
+}
+
+.page-footer {
+  background-color: #FFFFFF;
+}
+
+/*временный плейсхолдер*/
+:-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  opacity: 0.6;
+}
+
+.button {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #82B3D3;
+  /*свойства стилей под кнопку*/
+}
+
+.footer-contacts-phone {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+}
+
+/*catalog*/
+.inner-header-title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+  color: #FFFFFF;
+}
+
+.breadcrumbs {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.breadcrumbs-link {
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.filter-container {
+  background-image: url("../images/catalog/catalog-background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.catalog-filter-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+
+.catalog-filter-list {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
+.button.button-blue {
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 4px;
+}
+
+.residence-card {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.residence-list-link {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.rating-result {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.residence-card-link.button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #756157;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.residence-card-link.button.button-green {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #7DB54F;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.residence-card-link.button.button-blue {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #82B3D3;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.pagination-link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: #82B3D3;
+  border-radius: 4px;
+}
+
+.pagination-current {
+  color: #000000;
+  background-color: #F2F2F2;
+}
+
+.pagination-show-more {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+.subscribe-inner {
+  text-align: center;
+  padding: 96px 258px 104px;
+  background-color: #FFFFFF;
+}
+
+.subscribe-title-inner {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.subscript-inner {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #333333;
 }
