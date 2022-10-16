@@ -256,6 +256,27 @@ body {
   background-color: #FFFFFF;
 }
 
+.page-footer-container {
+  display: flex;
+  width: 1060px;
+  margin: 0 auto;
+}
+
+.footer-social-list {
+  max-width: 200px;
+  margin-right: 250px;
+}
+
+.footer-contacts {
+  width: 331px;
+  margin-left: 42px;
+}
+
+.footer-logo {
+  width: 115px;
+  margin-left: auto;
+}
+
 /*временный плейсхолдер*/
 :-ms-input-placeholder {
   font-weight: 400;
