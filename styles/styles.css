@@ -133,6 +133,10 @@ body {
   margin: 0 auto;
 }
 
+.logo {
+  display:block;
+  margin: 0 auto;
+}
 
 .hero-block,
 .search-hotel {
