@@ -164,7 +164,8 @@ body {
   padding: 0;
   display: flex;
   text-align: center;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -182,6 +183,7 @@ body {
   line-height: 21px;
   color: #333333;
   background-color: #FFFFFF;
+  align-items: flex-start;
   width: 400px;
 }
 
