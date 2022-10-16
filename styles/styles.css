@@ -42,6 +42,7 @@ body {
 .navigation {
   display: flex;
   width: 1200px;
+  height: 64px;
   margin: 0 auto;
   align-items: flex-start;
   /*пока оставим это здесь - потом по флексам посмотрим*/
@@ -50,12 +51,20 @@ body {
 .navigation-list {
   margin: 0;
   padding: 0;
-  display: flex;
+  /*display: flex;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: space-evenly;
-  width: 507px;
-  height: 64px;
+  justify-content: space-evenly;*/
+  width: 637px;
+}
+
+.navigation-user {
+  margin-left: auto;
+  /*display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;*/
+  max-width: 303px;
 }
 
 .navigation-link {
