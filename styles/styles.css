@@ -41,10 +41,15 @@ body {
 
 .navigation {
   display: flex;
-  padding: px 70px;
-  /*ругается на 0 в значении px*/
+  width: 1200px;
+  margin: 0 auto;
   align-items: flex-start;
   /*пока оставим это здесь - потом по флексам посмотрим*/
+}
+
+.navigation-list {
+  margin: 0;
+  padding: 0;
 }
 
 .navigation-link {
