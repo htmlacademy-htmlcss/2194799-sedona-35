@@ -42,7 +42,6 @@ body {
 .navigation {
   display: flex;
   width: 1200px;
-  height: 64px;
   margin: 0 auto;
   align-items: flex-start;
   /*пока оставим это здесь - потом по флексам посмотрим*/
@@ -124,8 +123,6 @@ body {
   background-repeat: no-repeat;
   /*background-position: center;*/
   background-size: 100% auto;
-  /*width: 1200px;
-  height: 485px;*/
 }
 
 .page-container {
