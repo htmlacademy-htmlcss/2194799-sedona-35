@@ -159,6 +159,10 @@ body {
   background-color: #FFFFFF;
 }
 
+.find-title {
+  text-align: left;
+}
+
 .advantages-list {
   margin: 0;
   padding: 0;
