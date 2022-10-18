@@ -330,21 +330,27 @@ body {
   text-decoration: none;
 }
 
-.filter-container {
+.main-inner {
   background-image: url("../images/catalog/catalog-background.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
-  background-position: center;
-  /*width: 1200px;
-  height: 412px;*/
+  background-position: absolute;
 }
 
-.residence-feature {
+.inner-bloсk {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 1060px;
+}
+
+.catalog-filter {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: flex-start;
-  margin-right: 140.15px;
-  width: 370.85px;
+  justify-content: space-between;
+  width: 1060px;
 }
 
 .catalog-filter-title {
@@ -354,6 +360,11 @@ body {
   text-transform: capitalize;
   color: #FFFFFF;
 }
+
+.catalog-filter-group {
+  width: 370px;
+}
+
 
 .catalog-filter-list {
   font-weight: 400;
