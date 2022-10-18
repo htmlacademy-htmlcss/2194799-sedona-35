@@ -394,6 +394,10 @@ body {
   text-decoration: none;
 }
 
+.catalog {
+  background-color: #FFFFFF;
+}
+
 .rating-result {
   font-weight: 400;
   font-size: 16px;
