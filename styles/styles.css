@@ -333,15 +333,18 @@ body {
 .filter-container {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-
-  flex-wrap: wrap;
   background-image: url("../images/catalog/catalog-background.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-position: center;
   /*width: 1200px;
   height: 412px;*/
+}
+
+.residence-feature {
+  align-items: flex-start;
+  margin-right: 140.15px;
+  width: 370.85px;
 }
 
 .catalog-filter-title {
