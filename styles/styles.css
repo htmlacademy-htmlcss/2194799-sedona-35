@@ -331,8 +331,6 @@ body {
 }
 
 .filter-container {
-  display: flex;
-  flex-direction: row;
   background-image: url("../images/catalog/catalog-background.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
@@ -342,6 +340,8 @@ body {
 }
 
 .residence-feature {
+  display: flex;
+  flex-direction: row;
   align-items: flex-start;
   margin-right: 140.15px;
   width: 370.85px;
