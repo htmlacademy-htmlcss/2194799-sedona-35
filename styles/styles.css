@@ -331,6 +331,11 @@ body {
 }
 
 .filter-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+
+  flex-wrap: wrap;
   background-image: url("../images/catalog/catalog-background.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
