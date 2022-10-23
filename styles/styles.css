@@ -68,7 +68,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  min-width: 88px;
+  /*min-width: 88px;*/
 }
 
 .navigation-link {
