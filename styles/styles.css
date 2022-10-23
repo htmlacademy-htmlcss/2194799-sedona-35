@@ -42,7 +42,7 @@ body {
 
 .navigation {
   display: flex;
-  width: 1200px;
+  width: 1060px;
   margin: 0 auto;
   background-color: #FFFFFF;
 }
@@ -54,7 +54,7 @@ body {
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
-  max-width: 637px;
+  max-width: 407px;
   margin-left: 30px;
   margin-right: 285px;
 }
@@ -104,7 +104,6 @@ body {
   padding-top: 8px;
   padding-bottom: 8px;
   margin-left: 20px;
-  margin-right: 70px;
   margin-top: 14px;
   margin-bottom: 14px;
   line-height: 20px;
