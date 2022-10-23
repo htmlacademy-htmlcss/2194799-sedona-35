@@ -201,6 +201,15 @@ body {
   justify-content: space-between;
 }
 
+.advantages-item {
+  font-weight: 400;
+  color: #333333;
+  background-color: #FFFFFF;
+  align-items: flex-start;
+  min-width: 400px;
+  min-height: 384px;
+}
+
 .rectangle {
   width: 60px;
   height: 2px;
@@ -220,6 +229,10 @@ body {
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
+  margin-left: 112px;
+  margin-right: 112px;
+  margin-top: 103px;
+  margin-bottom: 30px;
   color: #000000;
 }
 
@@ -234,13 +247,8 @@ body {
   margin-top: 30px;
 }
 
-.advantages-item {
-  font-weight: 400;
-  color: #333333;
-  background-color: #FFFFFF;
-  align-items: flex-start;
-  min-width: 400px;
-  min-height: 384px;
+.details-description {
+  margin-top: 30px;
 }
 
 .advantages-1 {
