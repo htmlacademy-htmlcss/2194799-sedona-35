@@ -191,6 +191,20 @@ body {
   justify-content: space-between;
 }
 
+.rectangle {
+  width: 60px;
+  height: 2px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.details-rectangle {
+  width: 60px;
+  height: 2px;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.3);
+}
+
 .advantages-title {
   font-weight: 700;
   font-size: 24px;
@@ -203,7 +217,11 @@ body {
   margin-left: 112px;
   margin-right: 112px;
   margin-top: 92px;
-  margin-bottom: 62px;
+  margin-bottom: 30px;
+}
+
+.advatages-description {
+  margin-top: 30px;
 }
 
 .advantages-item {
