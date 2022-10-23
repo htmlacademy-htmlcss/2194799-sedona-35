@@ -205,15 +205,18 @@ body {
   color: #333333;
   background-color: #FFFFFF;
   align-items: flex-start;
-  width: 400px;
+  min-width: 400px;
+  min-height: 384px;
 }
 
 .advantages-1 {
   width: 800px;
+  height: 100%;
 }
 
 .advantages-2 {
   width: 800px;
+  height: 100%;
 }
 
 .blue {
