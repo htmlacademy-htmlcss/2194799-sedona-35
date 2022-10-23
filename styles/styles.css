@@ -375,13 +375,15 @@ body {
 }
 
 .footer-social-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   max-width: 200px;
+  padding: 0;
   margin-right: 250px;
-}
-
-.footer-contacts {
-  width: 331px;
-  margin-left: 42px;
+  margin-top: 45px;
+  margin-bottom: 35px;
+  list-style: none;
 }
 
 .footer-logo {
@@ -409,6 +411,12 @@ body {
   /*свойства стилей под кнопку*/
 }
 
+.footer-contacts {
+  width: 331px;
+  margin-top: 45px;
+  margin-bottom: 35px;
+}
+
 .footer-contacts-phone {
   font-weight: 400;
   font-size: 40px;
@@ -417,6 +425,11 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   color: #000000;
+}
+
+.footer-logo-img {
+  margin-top: 48px;
+  margin-bottom: 39px;
 }
 
 /*catalog*/
