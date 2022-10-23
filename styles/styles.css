@@ -191,6 +191,16 @@ body {
   justify-content: space-between;
 }
 
+.details-list {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 .rectangle {
   width: 60px;
   height: 2px;
