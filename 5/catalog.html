@@ -16,7 +16,6 @@
             alt="Логотип сайта городка Седона.">
         </a>
         <ul class="navigation-list">
-          <!--убрать стилизованные отметки в списках: свойство list-style: none-->
           <li class="navigation-item">
             <a class="navigation-link" href="main.html">Главная</a>
           </li>
@@ -43,14 +42,10 @@
               </span>
             </a>
           </li>
-          <li class="navigation-item">
-            <a class="navigation-link-more" href="join.html">
-              <span class="visually-hidden">
-                Хочу сюда!
-              </span>
-            </a>
-          </li>
         </ul>
+        <a class="button-navigation" href="join.html">
+          Хочу сюда!
+        </a>
       </nav>
     </header>
     <main class="main-container main-inner">
@@ -75,6 +70,7 @@
           </div>
           <section class="residence-features">
             <h2 class="visually-hidden" hidden>Список параметров гостиниц</h2>
+            <!--Временный hidden-->
             <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
               <fieldset class="catalog-filter-group">
                 <legend class="catalog-filter-title">Инфраструктура:</legend>
@@ -109,7 +105,6 @@
                 <legend class="catalog-filter-title">Тип жилья:</legend>
                 <!--Курглая форма radio-->
                 <ul class="catalog-filter-list">
-                  <!--убрать стилизованные отметки в списках: свойство list-style: none-->
                   <li class="catalog-filter-item">
                     <label class="control">
                       <input class="control-input" type="radio" name="residence-group" value="hotel" checked>
@@ -161,7 +156,6 @@
           </a>
           <a class="button" href="#">
             <span class="visually-hidden">Показать слайды</span>
-            <!--Пускай пока будут слайды, уточнить-->
           </a>
           <a class="button" href="#">
             <span class="visually-hidden">Показать список</span>
@@ -251,7 +245,7 @@
           <p class="subscript-inner">Только полезная информация и никакого спама,<br>честное бойскаутское!</p>
           <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
             <input type="text" id="subscribe-email" name="subscribe-email" placeholder="Ваш e-mail">
-            <button class="button" type="submit">Подписаться</button>
+            <button class="button-subscribe" type="submit">Подписаться</button>
           </form>
         </section>
       </div>
@@ -259,7 +253,8 @@
     <footer class="page-footer">
       <div class="page-footer-container">
         <section class="footer-social">
-          <h2 class="visually-hidden">Социальные сети</h2>
+          <h2 class="visually-hidden" hidden>Социальные сети</h2>
+          <!--Временный hidden-->
           <ul class="footer-social-list">
             <li class="footer-social-item">
               <a class="button" href="https://vk.com/htmlacademy">
@@ -279,12 +274,14 @@
           </ul>
         </section>
         <section class="footer-contacts">
-          <h2 class="visually-hidden">Контакты</h2>
+          <h2 class="visually-hidden" hidden>Контакты</h2>
+          <!--Временный hidden-->
           <a class="footer-contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
         </section>
         <section class="footer-logo">
-          <h2 class="visually-hidden">Логотип</h2>
-          <img src="images/logo-footer.svg" width="115" height="33" alt="Логотип Академия.">
+          <h2 class="visually-hidden" hidden>Логотип</h2>
+          <!--Временный hidden-->
+          <img class="footer-logo-img" src="images/logo-footer.svg" width="115" height="33" alt="Логотип Академия.">
           <a class="footer-logo-link" href="https://htmlacademy.ru/">
           </a>
         </section>
