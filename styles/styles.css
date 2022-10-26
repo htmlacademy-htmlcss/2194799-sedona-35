@@ -451,6 +451,10 @@ body {
   padding: 0;
 }
 
+.inner-block {
+  max-height: 412px;
+}
+
 .breadcrumbs {
   font-weight: 400;
   font-size: 16px;
@@ -493,7 +497,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 0;
-  margin-bottom: auto;
+  margin-bottom: 40px;
 }
 
 .catalog-filter {
@@ -568,6 +572,12 @@ margin-top: 32px;
   display: flex;
   flex-direction: column;
   margin-top: 56px;
+}
+
+.selection {
+  display: flex;
+  margin: 0 auto;
+  background-color: #ffffff;
 }
 
 .residence-card {
@@ -689,4 +699,8 @@ margin-top: 32px;
   font-weight: 400;
   line-height: 26px;
   color: #333333;
+}
+
+.visually-hidden {
+  margin: 0;
 }
