@@ -38,7 +38,7 @@ body {
 .main-header {
   background-color: #FFFFFF;
   color: #000000;
-  min-height: 64px;
+  max-height: 64px;
 }
 
 .navigation {
@@ -443,7 +443,7 @@ body {
   line-height: 78px;
   color: #FFFFFF;
   margin-top: 35px;
-  /* margin-left: 70px; */
+  margin-left: 70px;
   margin-bottom: 0;
   text-align: left;
   padding: 0;
@@ -473,13 +473,12 @@ body {
 }
 
 .inner-block {
-  width: 1060px;
   padding-bottom: 70px;
-  padding-left: 70px;
-  padding-right: 70px;
 }
 
 .inner-header {
+  display: flex;
+  flex-direction: column;
   padding: 0;
   margin-bottom: auto;
 }
