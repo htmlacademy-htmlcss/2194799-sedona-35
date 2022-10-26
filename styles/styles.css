@@ -454,6 +454,11 @@ body {
   font-size: 16px;
   line-height: 21px;
   color: #FFFFFF;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin-left: 70px;
+  margin-top: 8px;
 }
 
 .breadcrumbs-link {
