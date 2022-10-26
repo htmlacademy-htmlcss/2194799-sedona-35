@@ -143,26 +143,28 @@
           </section>
         </div>
         <section class="catalog">
-          <h2 class="visually-hidden" hidden>Каталог</h2>
-          <p class="find-title">Найдено гостиниц:<span>38</span></p>
-          <select class="select-control" aria-label="Сортировка">
-            <!--Фильтр здесь-->
-            <option value="popular">Сначала дешевые</option>
-            <option value="cheap">Сначала популярные</option>
-            <option value="expensive">Сначала дорогие</option>
-          </select>
-          <a class="button button-active" href="#">
-            <span class="visually-hidden">Показать таблицу</span>
-            <!--Ссылка отличается по стилю-->
-          </a>
-          <a class="button" href="#">
-            <span class="visually-hidden">Показать слайды</span>
-          </a>
-          <a class="button" href="#">
-            <span class="visually-hidden">Показать список</span>
-          </a>
-          <ul class="residence-list">
-            <li class="residence-card">
+          <div>
+            <h2 class="visually-hidden" hidden>Каталог</h2>
+            <p class="find-title">Найдено гостиниц:<span>38</span></p>
+            <select class="select-control" aria-label="Сортировка">
+              <!--Фильтр здесь-->
+              <option value="popular">Сначала дешевые</option>
+              <option value="cheap">Сначала популярные</option>
+              <option value="expensive">Сначала дорогие</option>
+            </select>
+            <a class="button button-active" href="#">
+              <span class="visually-hidden">Показать таблицу</span>
+              <!--Ссылка отличается по стилю-->
+            </a>
+            <a class="button" href="#">
+              <span class="visually-hidden">Показать слайды</span>
+            </a>
+            <a class="button" href="#">
+              <span class="visually-hidden">Показать список</span>
+            </a>
+          </div>
+          <div class="residence-list">
+            <article class="residence-card">
               <a class="residence-list-link" href="residence.html">
                 <img class="residence-card-image" src="images/catalog/catalog-1.jpg" width="300" height="212"
                   alt="Каньон со звездами">
@@ -175,8 +177,8 @@
               <a class="residence-card-link button button-blue" href="#">В избранное</a><br>
               <span class="visually-hidden">4 звезды</span>
               <span class="rating-result">Рейтинг: 8,5</span>
-            </li>
-            <li class="residence-card">
+            </article>
+            <article class="residence-card">
               <a class="residence-list-link" href="residence.html">
                 <img class="residence-card-image" src="images/catalog/catalog-2.jpg" width="300" height="212"
                   alt="Каньон с радугой">
@@ -189,8 +191,8 @@
               <a class="residence-card-link button button-green" href="#">В избранном</a><br>
               <span class="visually-hidden">4 звезды</span>
               <span class="rating-result">Рейтинг: 9,2</span>
-            </li>
-            <li class="residence-card">
+            </article>
+            <article class="residence-card">
               <a class="residence-list-link" href="residence.html">
                 <img class="residence-card-image" src="images/catalog/catalog-3.jpg" width="300" height="212"
                   alt="Каньон на закате">
@@ -203,8 +205,8 @@
               <a class="residence-card-link button button-blue" href="#">В избранное</a><br>
               <span class="visually-hidden">3 звезды</span>
               <span class="rating-result">Рейтинг: 6,9</span>
-            </li>
-            <li class="residence-card">
+            </article>
+            <article class="residence-card">
               <a class="residence-list-link" href="residence.html">
                 <img class="residence-card-image" src="images/catalog/catalog-4.jpg" width="300" height="212"
                   alt="Красный каньон со звездами">
@@ -217,29 +219,30 @@
               <a class="residence-card-link button button-blue" href="#">В избранное</a><br>
               <span class="visually-hidden">2 звезды</span>
               <span class="rating-result">Рейтинг: 5,0</span>
-            </li>
-          </ul>
-
-          <ul class="pagination">
-            <li class="pagination-item">
-              <a class="pagination-link pagination-current">1</a>
-            </li>
-            <li class="pagination-item">
-              <a class="pagination-link" href="#">2</a>
-            </li>
-            <li class="pagination-item">
-              <a class="pagination-link" href="#">3</a>
-            </li>
-            <li class="pagination-item">
-              <a class="pagination-link" href="#">4</a>
-            </li>
-            <li class="pagination-item">
-              <a class="pagination-link pagination-show-more" href="#">...</a>
-            </li>
-            <li class="pagination-item">
-              <a class="pagination-link" href="#">10</a>
-            </li>
-          </ul>
+            </article>
+          </div>
+          <div>
+            <ul class="pagination">
+              <li class="pagination-item">
+                <a class="pagination-link pagination-current">1</a>
+              </li>
+              <li class="pagination-item">
+                <a class="pagination-link" href="#">2</a>
+              </li>
+              <li class="pagination-item">
+                <a class="pagination-link" href="#">3</a>
+              </li>
+              <li class="pagination-item">
+                <a class="pagination-link" href="#">4</a>
+              </li>
+              <li class="pagination-item">
+                <a class="pagination-link pagination-show-more" href="#">...</a>
+              </li>
+              <li class="pagination-item">
+                <a class="pagination-link" href="#">10</a>
+              </li>
+            </ul>
+          </div>
         </section>
         <section class="subscribe-inner">
           <h3 class="subscribe-title-inner">Подпишитесь на рассылку</h3>
