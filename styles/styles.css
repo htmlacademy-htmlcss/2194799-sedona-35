@@ -201,6 +201,10 @@ body {
   justify-content: space-between;
 }
 
+.row {
+  flex-direction: row-reverse;
+}
+
 .advantages-item {
   font-weight: 400;
   color: #333333;
