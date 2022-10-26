@@ -135,13 +135,6 @@ body {
   background-size: 100% auto;
 }
 
-.page-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin: 0 auto;
-}
-
 .logo {
   display: block;
   margin: 0 auto;
