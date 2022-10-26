@@ -552,6 +552,24 @@ body {
   padding-bottom: 8px;
 }
 
+.button.button-opacity {
+background-color: transparent;
+box-sizing: border-box;
+border: transparent;
+min-width: 191px;
+padding-right: 57px;
+padding-left: 57px;
+padding-top: 8px;
+padding-bottom: 8px;
+margin-top: 32px;
+}
+
+.catalog-filter-button {
+  display: flex;
+  flex-direction: column;
+  margin-top: 56px;
+}
+
 .residence-card {
   font-weight: 400;
   font-size: 18px;
