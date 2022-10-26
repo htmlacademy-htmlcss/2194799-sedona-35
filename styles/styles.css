@@ -115,6 +115,7 @@ body {
   box-sizing: border-box;
   border-radius: 4px;
   min-width: 160px;
+  max-height: 36px;
 }
 
 .navigation-list,
@@ -410,6 +411,7 @@ body {
   line-height: 20px;
   text-align: center;
   text-transform: uppercase;
+  text-decoration: none;
   color: #FFFFFF;
   background-color: #82B3D3;
   /*свойства стилей под кнопку*/
@@ -469,16 +471,22 @@ body {
   text-decoration: none;
 }
 
+.residence-features {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+  margin-top: 40px;
+  margin-left: 70px;
+  margin-right: 70px;
+  max-width: 1060px;
+}
+
 .main-inner {
   color: #000000;
   background-color: #FFFFFF;
   background-image: url("../images/catalog/catalog-background.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
-}
-
-.inner-block {
-  padding-bottom: 70px;
 }
 
 .inner-header {
@@ -497,12 +505,19 @@ body {
   width: 1060px;
 }
 
+.catalog-filter-group {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
 .catalog-filter-title {
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
   text-transform: capitalize;
   color: #FFFFFF;
+  margin-bottom: 32px;
 }
 
 .catalog-filter-list {
@@ -510,12 +525,31 @@ body {
   font-size: 18px;
   line-height: 23px;
   color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+}
+
+.price-filter {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  color: #ffffff;
+  width: 288px;
 }
 
 .button.button-blue {
   font-size: 16px;
   line-height: 20px;
+  box-sizing: border-box;
   border-radius: 4px;
+  min-width: 191px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 .residence-card {
