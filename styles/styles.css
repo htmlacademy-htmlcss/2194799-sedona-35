@@ -609,6 +609,11 @@ body {
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  max-width: 340px;
+  max-height: 438px;
   color: #333333;
 }
 
@@ -662,7 +667,26 @@ body {
   line-height: 20px;
   text-align: center;
   text-transform: uppercase;
+  padding-top: 9px;
+  padding-bottom: 8px;
+  padding-left: 23px;
+  padding-right: 22px;
+  margin: 0 20px;
+  border-radius: 4px;
+  background: #F2F2F2;
   color: #333333;
+}
+
+.grade {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  width: 140px;
+  justify-content: flex-start;
+}
+
+.grade li:not(:last-child) {
+  padding-right: 6px;
 }
 
 .residence-card-link.button {
