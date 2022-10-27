@@ -661,17 +661,30 @@ body {
   margin-bottom: 16px;
 }
 
+.residence-card-desc {
+  margin-right: 20px;
+  min-width: 140px;
+}
+
+.residence-card-price {
+  min-width: 140px;
+  text-align: end;
+}
+
 .rating-result {
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
   text-align: center;
   text-transform: uppercase;
+  max-height: 20px;
   padding-top: 9px;
   padding-bottom: 8px;
   padding-left: 23px;
   padding-right: 22px;
-  margin: 0 20px;
+  margin-left: 20px;
+  margin-top: 16px;
+  margin-bottom: 20px;
   border-radius: 4px;
   background: #F2F2F2;
   color: #333333;
@@ -683,6 +696,8 @@ body {
   padding: 0;
   width: 140px;
   justify-content: flex-start;
+  margin-top: 16px;
+  margin-bottom: 20px;
 }
 
 .grade li:not(:last-child) {
@@ -703,7 +718,6 @@ body {
   padding-top: 8px;
   padding-bottom: 8px;
   margin-top: 16px;
-  margin-bottom: 16px;
   margin-right: 20px;
   background-color: #756157;
   box-sizing: border-box;
@@ -726,7 +740,6 @@ body {
   padding-top: 8px;
   padding-bottom: 8px;
   margin-top: 16px;
-  margin-bottom: 16px;
   margin-right: 20px;
   box-sizing: border-box;
   min-width: 140px;
@@ -747,7 +760,6 @@ body {
   padding-top: 8px;
   padding-bottom: 8px;
   margin-top: 16px;
-  margin-bottom: 16px;
   margin-right: 20px;
   box-sizing: border-box;
   min-width: 140px;
