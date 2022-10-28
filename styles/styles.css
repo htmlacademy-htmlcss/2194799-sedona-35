@@ -136,9 +136,9 @@ body {
 .main-index {
   color: #000000;
   background-color: #FFFFFF;
-  background-image: url("../images/index-background.jpg");
+  background-image: url("../images/divider_hero.svg"), url("../images/index-background.jpg");
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size:  1200px 57px, 100% auto;
 }
 
 .page-container {
