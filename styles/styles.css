@@ -48,6 +48,10 @@ body {
   background-color: #FFFFFF;
 }
 
+.navigation-logo {
+  position: relative;
+}
+
 .navigation-list {
   margin: 0;
   padding: 0;
