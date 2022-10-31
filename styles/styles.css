@@ -617,7 +617,7 @@ body {
   flex-wrap: wrap;
   flex-direction: row;
   max-width: 340px;
-  max-height: 438px;
+  min-height: 438px;
   color: #333333;
   border: 1px solid #E6E6E6;
   border-radius: 4px;
