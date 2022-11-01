@@ -206,7 +206,9 @@ body {
   font-weight: 400;
   color: #333333;
   background-color: #FFFFFF;
-  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   min-width: 400px;
   min-height: 384px;
 }
@@ -230,12 +232,12 @@ body {
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
-  margin: 103px 112px 30px;
+  margin-top: 103px;
   color: #000000;
 }
 
 .advantages-title.blue {
-  margin: 92px 112px 30px;
+  margin-top: 92px;
 }
 
 .advatages-description {
@@ -274,6 +276,7 @@ body {
   line-height: 36px;
   text-align: center;
   text-transform: uppercase;
+  margin: 0;
   color: #000000;
   background-color: #FFFFFF;
 }
@@ -284,7 +287,11 @@ body {
   font-weight: 400;
   text-align: center;
   line-height: 26px;
-  padding: 96px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 406px;
   color: #333333;
   background-color: #FFFFFF;
 }
@@ -296,6 +303,7 @@ body {
   align-items: center;
   line-height: 36px;
   padding: 8px 50px;
+  margin-top: 40px;
   color: #FFFFFF;
   text-decoration: none;
   text-transform: uppercase;
