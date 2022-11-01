@@ -765,8 +765,11 @@ body {
 }
 
 .subscribe-inner {
+  display: flex;
+  flex-direction: column;
+  min-height: 415px;
+  justify-content: center;
   text-align: center;
-  padding: 96px 258px 104px;
   background-color: #FFFFFF;
 }
 
@@ -775,6 +778,7 @@ body {
   font-weight: 700;
   line-height: 36px;
   text-transform: uppercase;
+  margin: 0;
   color: #000000;
 }
 
@@ -782,6 +786,7 @@ body {
   font-size: 22px;
   font-weight: 400;
   line-height: 26px;
+  margin: 20px 0 54px;
   color: #333333;
 }
 
