@@ -138,6 +138,7 @@ body {
   background-image: url("../images/divider_hero.svg"), url("../images/index-background.jpg");
   background-repeat: no-repeat;
   background-size:  1200px 57px, 100% auto;
+  padding-top: 51px;
 }
 
 .page-container {
@@ -150,7 +151,6 @@ body {
 .logo {
   display: block;
   margin: 0 auto;
-  margin-top: 51px;
 }
 
 .hero-block {
@@ -473,13 +473,13 @@ body {
   background-image: url("../images/catalog/catalog-background.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
+  padding-top: 35px;
 }
 
 .inner-header {
   display: flex;
   flex-direction: column;
   padding: 0;
-  margin-top: 35px;
   margin-bottom: auto;
 }
 
