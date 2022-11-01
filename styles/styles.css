@@ -161,6 +161,11 @@ body {
   text-align: center;
   color: #333333;
   background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  min-height: 282px;
 }
 
 .hero-title {
@@ -169,16 +174,11 @@ body {
   font-weight: 700;
   line-height: 36px;
   text-align: center;
-  margin: 69px 290px 25px;
+  margin: 0;
   text-transform: uppercase;
   color: #000000;
   background-color: #FFFFFF;
 }
-
-.hero-description {
-  margin: 0 275px 90px;
-}
-
 
 .advantages-list {
   margin: 0;
