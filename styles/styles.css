@@ -185,7 +185,6 @@ body {
   padding: 0;
   text-align: center;
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
 }
@@ -195,7 +194,6 @@ body {
   padding: 0;
   text-align: center;
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
 }
@@ -485,7 +483,6 @@ body {
 
 .catalog-filter {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: space-between;
@@ -580,7 +577,6 @@ body {
   line-height: 21px;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
   max-width: 340px;
   min-height: 438px;
   color: #333333;
